@@ -1,0 +1,42 @@
+body {
+    justify-content: center;
+    background-color: lightblue;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 75vw;
+    margin: auto 0;
+
+}
+
+th, td {
+    border: 2px solid green;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: pink;
+    color: green;
+}
+
+header, footer {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+caption {
+    font-weight: bold;
+}
